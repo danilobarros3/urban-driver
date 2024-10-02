@@ -1,9 +1,11 @@
-import Header from "./components/Header/header";
-import "./index.css"
+import "./index.css";
+import Router from "./router";
 export default function App() {
   return (
     <>
-    <Header/>
+      <div className="font-main">
+        <Router />
+      </div>
     </>
   );
 }
