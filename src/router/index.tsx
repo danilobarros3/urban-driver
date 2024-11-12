@@ -1,6 +1,6 @@
 
 import RouteTemplate from "@/components/route-template";
-import Dashboard from "@/pages/dashboard";
+import { Dashboard } from "@/pages/dashboard";
 import { SubwayLine } from "@/pages/subway-line";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
